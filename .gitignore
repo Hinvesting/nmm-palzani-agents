@@ -2,5 +2,7 @@ venv/
 .env
 __pycache__/
 *.pyc
-.aider*
-.aider*
+# Aider work files (keep .aider.conf.yml)
+.aider.chat
+.aider.model
+.aiderignore

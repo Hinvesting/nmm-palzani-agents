@@ -1,0 +1,16 @@
+# .aider.conf.yml - Aider Assistant Configuration
+
+# Default Model Settings (Protects the $50/month budget cap)
+model: openrouter/qwen/qwen3-coder:free
+editor-model: openrouter/google/gemma-3-27b-it:free
+weak-model: openrouter/free
+
+# Custom Model Aliases (Menu Shortcuts)
+aliases:
+  lite: openrouter/qwen/qwen3-coder:free
+  lite-ollama: ollama/deepseek-r1:cloud
+  prep: openrouter/deepseek/deepseek-r1:free
+  daily: openrouter/free
+  daily-ollama: ollama/kimi-k2:cloud
+  gemini: gemini/gemini-flash-lite-latest
+  vip: anthropic/claude-4.5-opus
